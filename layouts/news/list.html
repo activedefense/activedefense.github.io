@@ -1,10 +1,6 @@
 {{ partial "header.html" . }}
 
 	<main class="main list content" role="main">
-    <div>
-      <h2>弊社について</h2>
-      <p>{{ $.Param "description" }}</p>
-    </div>
 		{{- if not .IsHome}}
 		{{- with .Title }}
 		<header class="page-header">
@@ -17,7 +13,6 @@
 			{{ . }}
 		</div>
 		{{- end }}
-    <h2>更新情報</h2>
 		{{- if .IsHome }}
 			{{- $postSections := ($.Param "postSections" | default (slice "post")) }}
 			{{- $paginator := .Paginate ( where .Data.Pages "Section" "in" $postSections ) }}
@@ -38,24 +33,7 @@
 		{{- end }}
 
 		{{ partial "pagination.html" . }}
-    <h2>技術・営業協力会社</h2>
-    {{ "<!-- Clients Aside -->" | safeHTML }}
-    <aside class="clients">
-      <div class="container container-inner">
-        <div class="row">
-          {{ range .Site.Params.clients }}
-            <div class="col-md-3 col-sm-6">
-              <a href="{{ .link }}">
-                <img src="/images/logos/{{ .logo }}" class="img-responsive img-centered" alt="">
-              </a>
-            </div>
-          {{ end }}
-        </div>
-      </div>
-    </aside>
 	</main>
 
 {{ partial "sidebar.html" . }}
-
-
 {{ partial "footer.html" . }}

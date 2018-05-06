@@ -1,20 +1,47 @@
 baseURL = "https://www.activedefense.co.jp/"
 title = "株式会社アクティブディフェンス研究所"
-theme = "hugo-bootstrap"
+theme = "mainroad"
 DefaultContentLanguage = "jp"
 copyright = "Active Defense Institute, Ltd. 2018"
 
 
 [params]
+  subtitle = "攻めの情報セキュリティR&Dチーム"
   postSections = ["news"]
   copyright = "Active Defense Institute, Ltd. 2018"
-  subtitle = "Subtitle"
-  description = "This is Test Site"
-  [params.navigation]
-    help = "help"
+  description = """
+  株式会社アクティブディフェンス研究所は、サイバーセキュリティに関する攻撃・防御技術の研究と自社サービス開発をコア事業とするベンチャー企業です。
+  最新のマルウェア対策研究、マルウェア自動解析、マルウェアを用いたサイバー攻撃の脅威情報収集、IoTセキュリティ診断を継続的に知的好奇心ドリブンで取り組んでいます。
+  また、そのノウハウを活かし、各種コンサルティングやトレーニング、マルウェアフォレンジックや脆弱性診断・ペネトレーションテストなどを実施しております。
+  """
+  [params.widgets]
+    search = true # Enable "Search" widget
+    recent_articles = true # Enable "Recent articles" widget
+    recent_articles_num = 5 # Set the number of articles in the "Recent articles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+  # Client section
+  [params.clients_list]
+    enable = true
 
+    # All the clients' logos are stored under 'static/img/logos'.
+    # Replace them with your clients's logos.
+    [[params.clients]]
+      logo = "aqutras.png"
+      link = "http://www.yume-ed.co.jp/"
+    [[params.clients]]
+      logo = "aqutras.png"
+      link = "http://www.aqutras.com/"
+    [[params.clients]]
+      logo = "aqutras.png"
+      link = "http://www.aqutras.com/"
+    [[params.clients]]
+      logo = "aqutras.png"
+      link = "http://www.aqutras.com/"
+    [[params.clients]]
+      logo = "aqutras.png"
+      link = "http://www.aqutras.com/"
   # Contact section
-
   [params.contact]
     enable = true
     title = "お問い合わせフォーム"
@@ -52,22 +79,22 @@ copyright = "Active Defense Institute, Ltd. 2018"
 
   [[menu.main]]
     identifier = "news"
-    name = "news"
+    name = "ニュース"
     pre = "<i class='fa fa-heart'></i>"
     url = "/news/"
     weight = -190
 
   [[menu.main]]
-    identifier = "consulting"
-    name = "コンサルティング他"
+    identifier = "consultingetc"
+    name = "診断・コンサルティング他"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/news/"
-    weight = -190
+    url = "/consultingetc/"
+    weight = -180
 
 
   [[menu.main]]
-    identifier = "cyber_tactical_database"
-    name = "脅威情報提供サービス"
+    identifier = "ctd"
+    name = "国内脅威情報提供サービス"
     pre = "<i class='fa fa-heart'></i>"
     url = "/ctd/"
     weight = -170
@@ -80,12 +107,18 @@ copyright = "Active Defense Institute, Ltd. 2018"
     url = "/trustedwall/"
     weight = -170
 
+  #[[menu.main]]
+    #identifier = "research"
+    #name = "研究活動"
+    #pre = "<i class='fa fa-heart'></i>"
+    #url = "/research/"
+    #weight = -160
 
   [[menu.main]]
-    identifier = "research"
-    name = "research"
+    identifier = "partners"
+    name = "パートナーシップ"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/research/"
+    url = "/partners/"
     weight = -160
 
   [[menu.main]]
@@ -97,7 +130,7 @@ copyright = "Active Defense Institute, Ltd. 2018"
 
 
   [[menu.main]]
-    name = "contacts"
+    name = "お問い合わせ"
     pre = "<i class='fa fa-road'></i>"
     url = "/contacts/"
     weight = -100
