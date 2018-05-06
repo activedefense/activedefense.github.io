@@ -1,0 +1,104 @@
+baseURL = "https://www.activedefense.co.jp/"
+title = "株式会社アクティブディフェンス研究所"
+theme = "hugo-bootstrap"
+DefaultContentLanguage = "jp"
+copyright = "Active Defense Institute, Ltd. 2018"
+
+
+[params]
+  postSections = ["news"]
+  copyright = "Active Defense Institute, Ltd. 2018"
+  subtitle = "Subtitle"
+  description = "This is Test Site"
+  [params.navigation]
+    help = "help"
+
+  # Contact section
+
+  [params.contact]
+    enable = true
+    title = "お問い合わせフォーム"
+    subtitle  = "案件のご相談、お見積もりはこちら"
+    buttonText = "送信"
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "社名とご担当者名（必須）"
+      pre = "株式会社アクティブディフェンス研究所 忠鉢 洋輔"
+      warning = "社名とご担当者名をご入力ください。"
+
+    [params.contact.form.email]
+      text = "メールアドレス（必須）"
+      pre = "info@activedefense.co.jp"
+      warning = "emailアドレスを入力してください。"
+
+    [params.contact.form.phone]
+      text = "電話番号（任意）"
+      pre = ""
+      warning = "電話番号をご入力ください。"
+
+    [params.contact.form.message]
+      text = "ご相談内容をご入力ください（必須）"
+      pre = ""
+      warning = "ご相談内容をご入力ください。"
+
+[menu]
+  [[menu.main]]
+    identifier = "top"
+    name = "top"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = -200
+
+  [[menu.main]]
+    identifier = "news"
+    name = "news"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/news/"
+    weight = -190
+
+  [[menu.main]]
+    identifier = "consulting"
+    name = "コンサルティング他"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/news/"
+    weight = -190
+
+
+  [[menu.main]]
+    identifier = "cyber_tactical_database"
+    name = "脅威情報提供サービス"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/ctd/"
+    weight = -170
+
+  [[menu.main]]
+    # parent = "trustedwall"
+    identifier = "trustedwall"
+    name = "Trusted Wall"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/trustedwall/"
+    weight = -170
+
+
+  [[menu.main]]
+    identifier = "research"
+    name = "research"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/research/"
+    weight = -160
+
+  [[menu.main]]
+    identifier = "company"
+    name = "会社情報"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/company/"
+    weight = -150
+
+
+  [[menu.main]]
+    name = "contacts"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/contacts/"
+    weight = -100
+

@@ -1,0 +1,51 @@
+{{ "<!-- Contact Section -->" | safeHTML }}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.contact.title }}{{ . | markdownify }}{{ end }}</h2>
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.contact.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10">
+        <form  action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm" novalidate>
+          <div class="row">
+            <div class="col-md-10">
+
+              <div class="form-group">
+                <p>{{ .Site.Params.contact.form.name.text }}</p>
+                <input type="text" class="form-control" placeholder="{{ with .Site.Params.contact.form.name.pre }}{{ .  | markdownify }}{{ end }}" name="name" required data-validation-required-message="{{ with .Site.Params.contact.form.name.warning }}{{ . | markdownify}}{{ end }}">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                 <p>{{ .Site.Params.contact.form.email.text }}</p>
+                <input type="email" class="form-control" placeholder="{{ with .Site.Params.contact.form.email.pre }}{{ . | markdownify }}{{ end }}" name="email" required data-validation-required-message="{{ with .Site.Params.contact.form.email.warning }}{{ . | markdownify }}{{ end }}">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                 <p>{{ .Site.Params.contact.form.phone.text }}</p>
+                <input type="tel" class="form-control" placeholder="{{ with .Site.Params.contact.form.phone.pre }}{{ . | markdownify }}{{ end }}" name="phone" required data-validation-required-message="{{ with .Site.Params.contact.form.phone.warning }}{{ . | markdownify }}{{ end }}">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                 <p>{{ .Site.Params.contact.form.message.text }}</p>
+                <textarea class="form-control" placeholder="{{ with .Site.Params.contact.form.message.pre }}{{ . | markdownify }}{{ end }}" name="message" required data-validation-required-message="{{ with .Site.Params.contact.form.message.warning }}{{ . | markdownify }}{{ end }}"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-xl">{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
