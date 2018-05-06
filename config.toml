@@ -28,18 +28,6 @@ copyright = "Active Defense Institute, Ltd. 2018"
     # Replace them with your clients's logos.
     [[params.clients]]
       logo = "aqutras.png"
-      link = "http://www.yume-ed.co.jp/"
-    [[params.clients]]
-      logo = "aqutras.png"
-      link = "http://www.aqutras.com/"
-    [[params.clients]]
-      logo = "aqutras.png"
-      link = "http://www.aqutras.com/"
-    [[params.clients]]
-      logo = "aqutras.png"
-      link = "http://www.aqutras.com/"
-    [[params.clients]]
-      logo = "aqutras.png"
       link = "http://www.aqutras.com/"
   # Contact section
   [params.contact]
