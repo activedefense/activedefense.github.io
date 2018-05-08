@@ -29,6 +29,10 @@ copyright = "Active Defense Institute, Ltd. 2018"
     [[params.clients]]
       logo = "aqutras.png"
       link = "http://www.aqutras.com/"
+    [[params.clients]]
+      logo = "secure-cycle.png"
+      link = "https://secure-cycle.co.jp/"
+
   # Contact section
   [params.contact]
     enable = true
