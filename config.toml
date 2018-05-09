@@ -3,7 +3,8 @@ title = "株式会社アクティブディフェンス研究所"
 theme = "mainroad"
 DefaultContentLanguage = "jp"
 copyright = "Active Defense Institute, Ltd. 2018"
-
+googleAnalytics = "UA-87477072-1"
+paginate = "10"
 
 [params]
   subtitle = "攻めの情報セキュリティR&Dチーム"
@@ -78,25 +79,17 @@ copyright = "Active Defense Institute, Ltd. 2018"
 
   [[menu.main]]
     identifier = "consultingetc"
-    name = "診断・コンサルティング他"
+    name = "診断・コンサル・セミナー"
     pre = "<i class='fa fa-heart'></i>"
     url = "/consultingetc/"
     weight = -180
 
 
   [[menu.main]]
-    identifier = "ctd"
-    name = "国内脅威情報提供サービス"
+    identifier = "services"
+    name = "サービス"
     pre = "<i class='fa fa-heart'></i>"
-    url = "/ctd/"
-    weight = -170
-
-  [[menu.main]]
-    # parent = "trustedwall"
-    identifier = "trustedwall"
-    name = "Trusted Wall"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/trustedwall/"
+    url = "/services/"
     weight = -170
 
   #[[menu.main]]
