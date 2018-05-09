@@ -7,6 +7,7 @@ googleAnalytics = "UA-87477072-1"
 paginate = "10"
 
 [params]
+  email = "info@activedefense.co.jp"
   subtitle = "攻めの情報セキュリティR&Dチーム"
   postSections = ["news"]
   copyright = "Active Defense Institute, Ltd. 2018"
