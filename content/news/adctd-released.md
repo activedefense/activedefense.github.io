@@ -33,13 +33,13 @@ JSON形式でのご提供になりますが、既にご要望頂いているTAXI
 
 # Trial
 1ヶ月間、無料でお試し頂けます。APIキーを弊社から発行致します。
-タイトルに"CTDテスト利用申込"、本文に下記の情報を沿えて、ctd-admin &#064; activedefense.co.jpお送りください。
+タイトルに"CTDテスト利用申込"、本文に下記の情報を沿えて、ctd-info &#064; activedefense.co.jpお送りください。
 - ご連絡先氏名
 - ご連絡先メールアドレス
 - ご所属
 - ご希望ライセンス
 
-サービス自体や使い方に関するご質問は、ctd-info@activedefense.co.jpまでお問い合わせください。
+サービス自体や使い方に関するご質問は、ctd-info &#064; activedefense.co.jpまでお問い合わせください。
 
 [1]: https://github.com/swagger-api/swagger-codegen
 [2]: https://www.activedefense.co.jp/adctd-api-spec/
