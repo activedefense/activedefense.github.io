@@ -16,6 +16,7 @@ paginate = "10"
   最新のマルウェア対策研究、マルウェア自動解析、マルウェアを用いたサイバー攻撃の脅威情報収集、IoTセキュリティ診断を継続的に知的好奇心ドリブンで取り組んでいます。
   また、そのノウハウを活かし、各種コンサルティングやトレーニング、マルウェアフォレンジックや脆弱性診断・ペネトレーションテストなどを実施しております。
   """
+  readmore = true
   [params.widgets]
     search = true # Enable "Search" widget
     recent_articles = true # Enable "Recent articles" widget
