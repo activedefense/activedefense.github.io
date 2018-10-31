@@ -5,7 +5,7 @@ DefaultContentLanguage = "jp"
 copyright = "Active Defense Institute, Ltd. 2018"
 googleAnalytics = "UA-87477072-1"
 paginate = "10"
-
+summaryLength = "0"
 [params]
   email = "info@activedefense.co.jp"
   subtitle = "攻めの情報セキュリティR&Dチーム"
