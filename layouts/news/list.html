@@ -1,5 +1,4 @@
-{{ partial "header.html" . }}
-
+{{ define "main" }}
 	<main class="main list content" role="main">
 		{{- if not .IsHome}}
 		{{- with .Title }}
@@ -34,6 +33,4 @@
 
 		{{ partial "pagination.html" . }}
 	</main>
-
-{{ partial "sidebar.html" . }}
-{{ partial "footer.html" . }}
+{{end}}

@@ -6,63 +6,98 @@ copyright = "Active Defense Institute, Ltd. 2018"
 googleAnalytics = "UA-87477072-1"
 paginate = "10"
 summaryLength = "0"
-[params]
+[Params]
   email = "info@activedefense.co.jp"
   subtitle = "攻めの情報セキュリティR&Dチーム"
   postSections = ["news"]
-  copyright = "Active Defense Institute, Ltd. 2018"
+  copyright = "Active Defense Institute, Ltd. 2021"
   description = """
   株式会社アクティブディフェンス研究所は、サイバーセキュリティに関する攻撃・防御技術の研究と自社サービス開発をコア事業とするベンチャー企業です。
   最新のマルウェア対策研究、マルウェア自動解析、マルウェアを用いたサイバー攻撃の脅威情報収集、IoTセキュリティ診断を継続的に知的好奇心ドリブンで取り組んでいます。
   また、そのノウハウを活かし、各種コンサルティングやトレーニング、マルウェアフォレンジックや脆弱性診断・ペネトレーションテストなどを実施しております。
   """
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+  mainSections = ["post", "blog", "news","services"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
   readmore = true
-  [params.widgets]
+
+  [Params.thumbnail]
+    visibility = ["list", "post","blog"] # Control thumbnail visibility
+
+  [Params.style.vars]
+    highlightColor = "#e22d30" # Override highlight color
+
+    # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
+    # Take care of different quotes OR escaping symbols in these params if necessary
+    fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+    fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+  [Params.sidebar]
+    home = "right" # Configure layout for home page
+    list = "right"  # Configure layout for list pages
+    single = true # Configure layout for single pages
+    # Enable widgets in given order
+    widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  [Params.logo]
+    image = "images/activedefense.png" # Logo image. Path relative to "static"
+    title = "Active Defense Institute, Ltd." # Logo title, otherwise will use site title
+    subtitle = "Just another site" # Logo subtitle
+
+  [Params.widgets]
     search = true # Enable "Search" widget
     recent_articles = true # Enable "Recent articles" widget
     recent_articles_num = 5 # Set the number of articles in the "Recent articles" widget
     categories = true # Enable "Categories" widget
     tags = true # Enable "Tags" widget
   # Client section
-  [params.clients_list]
+  [Params.clients_list]
     enable = true
 
     # All the clients' logos are stored under 'static/img/logos'.
     # Replace them with your clients's logos.
-    [[params.clients]]
+    [[Params.clients]]
       logo = "vmray.png"
       link = "https://www.vmray.com/"
-    [[params.clients]]
+    [[Params.clients]]
       logo = "aqutras.png"
       link = "http://www.aqutras.com/"
-    [[params.clients]]
+    [[Params.clients]]
       logo = "secure-cycle.png"
       link = "https://secure-cycle.co.jp/"
 
   # Contact section
-  [params.contact]
+  [Params.contact]
     enable = true
     title = "お問い合わせフォーム"
     subtitle  = "案件のご相談、お見積もりはこちら"
     buttonText = "送信"
 
     # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
+    [Params.contact.form.name]
       text = "社名とご担当者名（必須）"
       pre = "株式会社アクティブディフェンス研究所 忠鉢 洋輔"
       warning = "社名とご担当者名をご入力ください。"
 
-    [params.contact.form.email]
+    [Params.contact.form.email]
       text = "メールアドレス（必須）"
       pre = "info@activedefense.co.jp"
       warning = "emailアドレスを入力してください。"
 
-    [params.contact.form.phone]
+    [Params.contact.form.phone]
       text = "電話番号（任意）"
       pre = ""
       warning = "電話番号をご入力ください。"
 
-    [params.contact.form.message]
+    [Params.contact.form.message]
       text = "ご相談内容をご入力ください（必須）"
       pre = ""
       warning = "ご相談内容をご入力ください。"
