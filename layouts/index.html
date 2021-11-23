@@ -1,5 +1,13 @@
 {{ define "main" }}
-<mains class="main list" role="main">
+<main class="main list" role="main">
+	<div>
+    <h2>弊社について</h2>
+    <p>{{ $.Param "description" }}</p>
+  </div>
+  <div>
+  <hr>
+  <h2>更新情報</h2>
+	</div>
 	{{- with .Content }}
 	<div class="content main__content clearfix">
 		{{ . }}
@@ -19,6 +27,22 @@
 			</div>
 		</div>
 	{{ end }}
+	<h2>技術・営業協力会社</h2>
+    {{ "<!-- Clients Aside -->" | safeHTML }}
+    <aside class="clients">
+      <div class="container container-inner">
+        <div class="row"><div class="col">
+          {{ range .Site.Params.clients }}
+          
+              <a href="{{ .link }}">
+                <img src="/images/logos/{{ .logo }}" class="img-responsive img-centered" alt="">
+              </a>
+
+          {{ end }}
+          </div>
+        </div>
+      </div>
+    </aside>
 </main>
 {{ partial "pagination.html" . }}
 {{ end }}

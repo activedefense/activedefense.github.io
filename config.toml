@@ -16,7 +16,7 @@ summaryLength = "0"
   最新のマルウェア対策研究、マルウェア自動解析、マルウェアを用いたサイバー攻撃の脅威情報収集、IoTセキュリティ診断を継続的に知的好奇心ドリブンで取り組んでいます。
   また、そのノウハウを活かし、各種コンサルティングやトレーニング、マルウェアフォレンジックや脆弱性診断・ペネトレーションテストなどを実施しております。
   """
-  authorbox = true # Show authorbox at bottom of pages if true
+  authorbox = false # Show authorbox at bottom of pages if true
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
@@ -33,14 +33,6 @@ summaryLength = "0"
   [Params.thumbnail]
     visibility = ["list", "post","blog"] # Control thumbnail visibility
 
-  [Params.style.vars]
-    highlightColor = "#e22d30" # Override highlight color
-
-    # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
-    # Take care of different quotes OR escaping symbols in these params if necessary
-    fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
-    fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
-
   [Params.sidebar]
     home = "right" # Configure layout for home page
     list = "right"  # Configure layout for list pages
@@ -48,9 +40,9 @@ summaryLength = "0"
     # Enable widgets in given order
     widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
   [Params.logo]
-    image = "images/activedefense.png" # Logo image. Path relative to "static"
+    #image = "images/activedefense.png" # Logo image. Path relative to "static"
     title = "Active Defense Institute, Ltd." # Logo title, otherwise will use site title
-    subtitle = "Just another site" # Logo subtitle
+    #subtitle = "Just another site" # Logo subtitle
 
   [Params.widgets]
     search = true # Enable "Search" widget
