@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 
 	<link rel="stylesheet" href="/css/style.css">
-	
+	<link rel="stylesheet" href="/css/custom.css">
 
 	<link rel="shortcut icon" href="/favicon.ico">
 		
@@ -32,17 +32,15 @@ if (!doNotTrack) {
 <body class="body">
 	<div class="container container--outer">
 		<header class="header">
-	<div class="container header__container">
-		
-	<div class="logo">
-		<a class="logo__link" href="/" title="株式会社アクティブディフェンス研究所" rel="home">
-			<div class="logo__item logo__text">
-					<div class="logo__title">株式会社アクティブディフェンス研究所</div>
-					<div class="logo__tagline">Just another site</div>
-				</div>
-		</a>
+	<div class="container container-inner">
+		<div class="logo" role="banner">
+
+			<a class="logo__link" href="/" title="株式会社アクティブディフェンス研究所" rel="home">
+        <div><img src="/images/activedefense.png" title="logo" width="50%" height="50%" ></div>
+			</a>
+		</div>
 	</div>
-		
+	
 <nav class="menu">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
 		<span class="menu__btn-title" tabindex="-1">Menu</span>
@@ -72,21 +70,35 @@ if (!doNotTrack) {
 		<li class="menu__item">
 			<a class="menu__link" href="/consultingetc/">
 				<i class='fa fa-heart'></i>
-				<span class="menu__text">診断・コンサル・セミナー</span>
+				<span class="menu__text">事業概要</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
 			<a class="menu__link" href="/services/">
 				<i class='fa fa-heart'></i>
-				<span class="menu__text">サービス</span>
+				<span class="menu__text">自社開発サービス</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/vmray/">
+				<i class='fa fa-heart'></i>
+				<span class="menu__text">VMray</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/research/">
+				<i class='fa fa-heart'></i>
+				<span class="menu__text">研究活動</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
 			<a class="menu__link" href="/partners/">
 				<i class='fa fa-heart'></i>
-				<span class="menu__text">パートナーシップ</span>
+				<span class="menu__text">パートナー</span>
 				
 			</a>
 		</li>
@@ -107,26 +119,25 @@ if (!doNotTrack) {
 	</ul>
 </nav>
 
-	</div>
 </header>
+
 		<div class="wrapper flex">
 			<div class="primary">
 			
-<main class="main" role="main">
+<main class="main content">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Trusted Wall</h1>
-			
+			<h1 class="post__title">Trusted Wall</h1><div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2018-05-03T22:20:05&#43;09:00">2018-05-03</time></div></div>
 		</header>
-		<div class="content post__content clearfix">
+		<div class="post__content clearfix">
 			<p>This is Trusted Wall contents</p>
 
 		</div>
+		
 	</article>
 </main>
-
-
-
 
 			</div>
 			<aside class="sidebar"><div class="widget-search widget">
@@ -142,9 +153,10 @@ if (!doNotTrack) {
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/news/history2021/">お仕事情報(2021)</a></li>
 			<li class="widget__item"><a class="widget__link" href="/news/adctd-released/">Cyber Tactical Database v2 Released</a></li>
-			<li class="widget__item"><a class="widget__link" href="/news/research/">外部発表</a></li>
-			<li class="widget__item"><a class="widget__link" href="/news/history/">お仕事情報(2018)</a></li>
+			<li class="widget__item"><a class="widget__link" href="/news/research/">外部発表(2018)</a></li>
+			<li class="widget__item"><a class="widget__link" href="/news/history2018/">お仕事情報(2018)</a></li>
 			<li class="widget__item"><a class="widget__link" href="/news/resale_vmray/">日本国内向けにVMRay製品の取扱いを始めました。</a></li>
 		</ul>
 	</div>
@@ -178,12 +190,14 @@ if (!doNotTrack) {
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2021 株式会社アクティブディフェンス研究所.
+			&copy; 2021 Active Defense Institute, Ltd. 2021.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
 </footer>
 	</div>
 <script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
 </body>
 </html>

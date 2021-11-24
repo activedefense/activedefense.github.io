@@ -6,7 +6,16 @@
     <description>Recent content on 株式会社アクティブディフェンス研究所</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Active Defense Institute, Ltd. 2018</copyright>
-    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0900</lastBuildDate><atom:link href="https://www.activedefense.co.jp/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Nov 2021 03:17:50 +0900</lastBuildDate><atom:link href="https://www.activedefense.co.jp/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>お仕事情報(2021)</title>
+      <link>https://www.activedefense.co.jp/news/history2021/</link>
+      <pubDate>Wed, 24 Nov 2021 03:17:50 +0900</pubDate>
+      
+      <guid>https://www.activedefense.co.jp/news/history2021/</guid>
+      <description>技術セミナー  非公開（通年）マルウェア解析・レッドチーム向けペネトレーションテスト等  IoT脆弱性診断  2021/10 IoT機器(2)脆弱性診断実施 2021/03 IoT機器(1)脆弱性診断実施  R&amp;amp;D  非公開x3  思い出せるのをざっと書いただけ</description>
+    </item>
+    
     <item>
       <title>Cyber Tactical Database v2 Released</title>
       <link>https://www.activedefense.co.jp/news/adctd-released/</link>
@@ -17,7 +26,7 @@
     </item>
     
     <item>
-      <title>外部発表</title>
+      <title>外部発表(2018)</title>
       <link>https://www.activedefense.co.jp/news/research/</link>
       <pubDate>Wed, 30 May 2018 16:53:56 +0900</pubDate>
       
@@ -27,10 +36,10 @@
     
     <item>
       <title>お仕事情報(2018)</title>
-      <link>https://www.activedefense.co.jp/news/history/</link>
+      <link>https://www.activedefense.co.jp/news/history2018/</link>
       <pubDate>Wed, 09 May 2018 16:31:34 +0900</pubDate>
       
-      <guid>https://www.activedefense.co.jp/news/history/</guid>
+      <guid>https://www.activedefense.co.jp/news/history2018/</guid>
       <description>技術セミナー  2018/02,03,04 IoTセキュリティ応用ハンズオン実施 2018/05 一般従業員向け情報セキュリティセミナー実施  IoT脆弱性診断  2018/02-03 スマートロック脆弱性診断実施  フォレンジック  2018/02 マルウェアフォレンジック調査実施 2018/04 マルウェア調査実施  </description>
     </item>
     

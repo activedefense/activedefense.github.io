@@ -6,14 +6,23 @@
     <description>Recent content in Sandbox on 株式会社アクティブディフェンス研究所</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Active Defense Institute, Ltd. 2018</copyright>
-    <lastBuildDate>Thu, 03 May 2018 22:20:05 +0900</lastBuildDate><atom:link href="https://www.activedefense.co.jp/tags/sandbox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Nov 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://www.activedefense.co.jp/tags/sandbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMRayについて</title>
+      <link>https://www.activedefense.co.jp/vmray/</link>
+      <pubDate>Wed, 24 Nov 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://www.activedefense.co.jp/vmray/</guid>
+      <description>概要 弊社は現在、VMRay Inc.</description>
+    </item>
+    
     <item>
       <title>自社サービス</title>
       <link>https://www.activedefense.co.jp/services/</link>
       <pubDate>Thu, 03 May 2018 22:20:05 +0900</pubDate>
       
       <guid>https://www.activedefense.co.jp/services/</guid>
-      <description>Trusted Wall（クラウド型DDoS攻撃対策サービス）   企業規模に比較してユーザーが多く、画像/動画などを多く含む行楽施設などのWebサイトを、弊社が提供するサービスで保護します。</description>
+      <description>Cyber Tactical Database(脅威情報サービス) 概要 日本への脅威にフォーカスした脅威情報の配信サービスの提供を開始します。 弊社独自のマルウェア配信プラットフォーム観測と自動解析を用い、マルウェアの配信元を継続的に監視しており、1時間おきに日本国内からの到達可能性やドメイン・IP情報を更新し配信しております。 JSON形式でのご提供になりますが、既にご要望頂いているTAXII/STIX2.</description>
     </item>
     
     <item>

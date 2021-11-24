@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 
 	<link rel="stylesheet" href="/css/style.css">
-	
+	<link rel="stylesheet" href="/css/custom.css">
 
 	<link rel="shortcut icon" href="/favicon.ico">
 		
@@ -32,17 +32,15 @@ if (!doNotTrack) {
 <body class="body">
 	<div class="container container--outer">
 		<header class="header">
-	<div class="container header__container">
-		
-	<div class="logo">
-		<a class="logo__link" href="/" title="株式会社アクティブディフェンス研究所" rel="home">
-			<div class="logo__item logo__text">
-					<div class="logo__title">株式会社アクティブディフェンス研究所</div>
-					<div class="logo__tagline">Just another site</div>
-				</div>
-		</a>
+	<div class="container container-inner">
+		<div class="logo" role="banner">
+
+			<a class="logo__link" href="/" title="株式会社アクティブディフェンス研究所" rel="home">
+        <div><img src="/images/activedefense.png" title="logo" width="50%" height="50%" ></div>
+			</a>
+		</div>
 	</div>
-		
+	
 <nav class="menu">
 	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
 		<span class="menu__btn-title" tabindex="-1">Menu</span>
@@ -72,21 +70,35 @@ if (!doNotTrack) {
 		<li class="menu__item">
 			<a class="menu__link" href="/consultingetc/">
 				<i class='fa fa-heart'></i>
-				<span class="menu__text">診断・コンサル・セミナー</span>
+				<span class="menu__text">事業概要</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
 			<a class="menu__link" href="/services/">
 				<i class='fa fa-heart'></i>
-				<span class="menu__text">サービス</span>
+				<span class="menu__text">自社開発サービス</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/vmray/">
+				<i class='fa fa-heart'></i>
+				<span class="menu__text">VMray</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/research/">
+				<i class='fa fa-heart'></i>
+				<span class="menu__text">研究活動</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
 			<a class="menu__link" href="/partners/">
 				<i class='fa fa-heart'></i>
-				<span class="menu__text">パートナーシップ</span>
+				<span class="menu__text">パートナー</span>
 				
 			</a>
 		</li>
@@ -107,31 +119,32 @@ if (!doNotTrack) {
 	</ul>
 </nav>
 
-	</div>
 </header>
+
 		<div class="wrapper flex">
 			<div class="primary">
 			
-<main class="main" role="main">
+<main class="main content">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">会社情報</h1>
-			
+			<h1 class="post__title">会社情報</h1><div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-11-24T00:00:00&#43;09:00">2021-11-24</time></div></div>
 		</header>
-		<div class="content post__content clearfix">
+		<div class="post__content clearfix">
 			<h3 id="会社概要">会社概要</h3>
 <h4 id="株式会社アクティブディフェンス研究所active-defense-institute-ltd">株式会社アクティブディフェンス研究所（Active Defense Institute, Ltd.)</h4>
 <ul>
 <li>所在地 東京都千代田区神田須田町二丁目</li>
-<li>代表取締役 忠鉢 洋輔</li>
+<li>代表取締役 <a href="https://www.ychubachi.net/">忠鉢 洋輔</a></li>
 <li>資本金 1,270,000円</li>
 <li>設立 2016年10月31日</li>
 <li>事業内容
 <ul>
-<li>マルウェア対策技術の研究・開発</li>
-<li>サイバーセキュリティ脅威情報サービスの提供</li>
+<li>マルウェア対策技術・サイバースレットインテリジェンスの研究・開発</li>
+<li>サイバースレットインテリジェンスサービスの開発・提供</li>
 <li>DDoS対策プロクシサービスの提供</li>
-<li>IoT、Webセキュリティ診断</li>
+<li>IoT機器、Webセキュリティ診断</li>
 <li>セキュリティ侵害インシデント対応</li>
 <li>マルウェアフォレンジック</li>
 <li>情報セキュリティに関するセミナー</li>
@@ -140,104 +153,11 @@ if (!doNotTrack) {
 </ul>
 </li>
 </ul>
-<h3 id="代表">代表</h3>
-<h4 id="忠鉢洋輔">忠鉢洋輔</h4>
-<h5 id="所属">所属</h5>
-<ul>
-<li><a href="http://www.activedefense.co.jp/">株式会社アクティブディフェンス研究所</a>　代表取締役</li>
-<li><a href="http://www.osss.cs.tsukuba.ac.jp/">筑波大学大学院 システム情報工学研究科</a> 博士後期課程</li>
-<li><a href="https://www.ipa.go.jp/icscoe/index.html">情報処理推進機構 産業サイバーセキュリティセンター(ICSCOE)</a> 非常勤研究員</li>
-</ul>
-<h5 id="社会活動">社会活動</h5>
-<ul>
-<li>
-<p>セキュリティ＆プログラミングキャンプ2011　セキュアなOSを作ろう組講師</p>
-</li>
-<li>
-<p>セキュリティキャンプ2012-2018 講師</p>
-</li>
-<li>
-<p>Linux向けマルウェア対策ソフトウェアを作ろうトラックリーダー(2018)</p>
-</li>
-<li>
-<p>SECCON(SECurity CONtest) 実行委員（2012-）</p>
-<ul>
-<li>SECCON YOROZU Board Member(2017-)</li>
-</ul>
-</li>
-</ul>
-<h4 id="研究活動">研究活動</h4>
-<h5 id="論文誌査読付き">論文誌（査読付き）</h5>
-<ul>
-<li>
-<p><strong>軽量ハイパーバイザによるシステムイメージの完全性保護</strong>
-<em><strong>忠鉢 洋輔</strong></em>, 表祐志, 品川 高廣, 加藤 和彦．情報処理学会論文誌，第54巻，第12号，2402-2412頁, 2013年12月．[ <a href="http://id.nii.ac.jp/1001/00096737/">情報学広場へのリンク</a>]</p>
-</li>
-<li>
-<p><strong>実行時のフェーズを用いたセキュリティポリシー簡略化．</strong>
-品川 高廣,<em><strong>忠鉢 洋輔</strong></em>, 河野 健二, 加藤 和彦．情報処理学会論文誌：コンピューティングシステム，第2巻，第2号，166-177頁，2009年6月．[<a href="http://id.nii.ac.jp/1001/00060781/">情報学広場へのリンク</a>]</p>
-</li>
-</ul>
-<h5 id="proceedings-査読付き">Proceedings （査読付き）</h5>
-<ul>
-<li>
-<p><strong>Hypervisor-based Background Encryption.</strong>
-Yushi Omote, <em><strong>Yosuke Chubachi</strong></em>, Takahiro Shinagawa, Tomohiro Kitamura, Hideki Eiraku, Katsuya Matsubara.
-In Proceedings of the 27th ACM Symposium On Applied Computing (ACM SAC 2012), pp. 1829-1836, Mar. 2012. [<a href="http://dl.acm.org/citation.cfm?id=2232073">ACM Digital Library</a>]</p>
-</li>
-<li>
-<p><strong>Detecting Malware Signatures in a Thin Hypervisor.</strong> Yoshihiro Oyama, Tran Giang, <em><strong>Yosuke Chubachi</strong></em>,  Takahiro Shinagawa, Kazuhiko Kato.
-In Proceedings of the 27th ACM Symposium On Applied Computing (ACM SAC 2012), pp. 1807-1814, Mar. 2012. [<a href="http://dl.acm.org/citation.cfm?id=2232070">ACM Digital Library</a>]</p>
-</li>
-<li>
-<p><strong>Hypervisor-based Prevention of Persistent Rootkits.</strong>
-<em><strong>Yosuke Chubachi</strong></em> , Takahiro Shinagawa, Kazuhiko Kato.
-In Proceedings of the 25th ACM Symposium On Applied Computing (ACM SAC 2010), Mar, 2010. [<a href="http://dl.acm.org/citation.cfm?id=1774131">ACM Digital Library</a>]</p>
-</li>
-</ul>
-<h5 id="oral-presentation-審査あり">Oral presentation (審査あり)</h5>
-<ul>
-<li>
-<p><strong>SLIME: Automated Anti-Sandboxing Disarmament System.</strong> <em><strong>Yosuke Chubachi</strong></em>, Kenji Aiko. Black Hat Europe 2014, Mar. 2015. [<a href="https://pacsec.jp/psj14/PSJ2014_chubachi_final_ja.pdf">pdf</a>]</p>
-</li>
-<li>
-<p><strong>TENTACLE: Environment-Sensitive Malware Palpation.</strong> <em><strong>Yosuke Chubachi</strong></em>, Kenji Aiko. PacSec2014. Nov. 2014.</p>
-</li>
-<li>
-<p><strong>Freeze drying for capturing environment sensitive malware alive.</strong> <em><strong>Yosuke Chubachi</strong></em> . Black Hat Europe 2014, Oct. 2014. [<a href="https://www.blackhat.com/docs/eu-14/materials/eu-14-Chubachi-Freeze-Drying-For-Capturing-Environment-Sensitive-Malware-Alive.pdf">pdf</a>]</p>
-</li>
-</ul>
-<h5 id="知的財産">知的財産</h5>
-<ul>
-<li><strong>情報処理装置及びプログラム．</strong> 品川 高廣, <em><strong>忠鉢 洋輔</strong></em>, 表 祐志, 北村 朋宏, 榮樂 英樹, 松原 克弥．特許出願2012-066264，国立大学法人東京大学, 株式会社イーゲル，2012年3月22日．</li>
-</ul>
-<h5 id="学位論文">学位論文</h5>
-<ul>
-<li><strong>軽量仮想マシンモニタによるシステムイメージの完全性保護に関する研究．</strong> <em><strong>忠鉢 洋輔．</strong></em> 筑波大学大学院 システム情報工学研究科 コンピュータサイエンス専攻，修士論文，2011年3月．</li>
-<li><strong>VMM を用いたクライアントOSのファイル保護．</strong> <em><strong>忠鉢 洋輔．</strong></em> 筑波大学 第三学群 情報学類．卒業研究論文．2009年3月．</li>
-</ul>
-<h5 id="出版物">出版物</h5>
-<ul>
-<li>
-<p>サーバ／インフラエンジニア養成読本 仮想化活用編 技術評論社（2012.04）</p>
-<ul>
-<li>Chapter2-Section3 Xenで実践 サーバ統合の実際と運用／管理</li>
-</ul>
-</li>
-<li>
-<p>Software Design 2008年5月号 SD流 仮想化技術フルコース【セキュリティ編】（2008.05）</p>
-<ul>
-<li>4章：仮想マシンのための運用管理ノウハウ</li>
-</ul>
-</li>
-</ul>
 
 		</div>
+		
 	</article>
 </main>
-
-
-
 
 			</div>
 			<aside class="sidebar"><div class="widget-search widget">
@@ -253,9 +173,10 @@ In Proceedings of the 25th ACM Symposium On Applied Computing (ACM SAC 2010), Ma
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/news/history2021/">お仕事情報(2021)</a></li>
 			<li class="widget__item"><a class="widget__link" href="/news/adctd-released/">Cyber Tactical Database v2 Released</a></li>
-			<li class="widget__item"><a class="widget__link" href="/news/research/">外部発表</a></li>
-			<li class="widget__item"><a class="widget__link" href="/news/history/">お仕事情報(2018)</a></li>
+			<li class="widget__item"><a class="widget__link" href="/news/research/">外部発表(2018)</a></li>
+			<li class="widget__item"><a class="widget__link" href="/news/history2018/">お仕事情報(2018)</a></li>
 			<li class="widget__item"><a class="widget__link" href="/news/resale_vmray/">日本国内向けにVMRay製品の取扱いを始めました。</a></li>
 		</ul>
 	</div>
@@ -289,12 +210,14 @@ In Proceedings of the 25th ACM Symposium On Applied Computing (ACM SAC 2010), Ma
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2021 株式会社アクティブディフェンス研究所.
+			&copy; 2021 Active Defense Institute, Ltd. 2021.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
 </footer>
 	</div>
 <script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
 </body>
 </html>

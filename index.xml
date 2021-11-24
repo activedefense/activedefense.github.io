@@ -6,7 +6,43 @@
     <description>Recent content on 株式会社アクティブディフェンス研究所</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Active Defense Institute, Ltd. 2018</copyright>
-    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0900</lastBuildDate><atom:link href="https://www.activedefense.co.jp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Nov 2021 03:17:50 +0900</lastBuildDate><atom:link href="https://www.activedefense.co.jp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>お仕事情報(2021)</title>
+      <link>https://www.activedefense.co.jp/news/history2021/</link>
+      <pubDate>Wed, 24 Nov 2021 03:17:50 +0900</pubDate>
+      
+      <guid>https://www.activedefense.co.jp/news/history2021/</guid>
+      <description>技術セミナー  非公開（通年）マルウェア解析・レッドチーム向けペネトレーションテスト等  IoT脆弱性診断  2021/10 IoT機器(2)脆弱性診断実施 2021/03 IoT機器(1)脆弱性診断実施  R&amp;amp;D  非公開x3  思い出せるのをざっと書いただけ</description>
+    </item>
+    
+    <item>
+      <title>VMRayについて</title>
+      <link>https://www.activedefense.co.jp/vmray/</link>
+      <pubDate>Wed, 24 Nov 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://www.activedefense.co.jp/vmray/</guid>
+      <description>概要 弊社は現在、VMRay Inc.</description>
+    </item>
+    
+    <item>
+      <title>会社情報</title>
+      <link>https://www.activedefense.co.jp/company/</link>
+      <pubDate>Wed, 24 Nov 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://www.activedefense.co.jp/company/</guid>
+      <description>会社概要 株式会社アクティブディフェンス研究所（Active Defense Institute, Ltd.</description>
+    </item>
+    
+    <item>
+      <title>研究活動</title>
+      <link>https://www.activedefense.co.jp/research/</link>
+      <pubDate>Fri, 04 Oct 2019 22:20:05 +0900</pubDate>
+      
+      <guid>https://www.activedefense.co.jp/research/</guid>
+      <description>Presentation  Rintaro Koike (NTT Security), Yosuke Chubachi (Active Defense Institute, Ltd / nao_sec), Finding drive-by rookies using an automated active observation platform.</description>
+    </item>
+    
     <item>
       <title>Cyber Tactical Database v2 Released</title>
       <link>https://www.activedefense.co.jp/news/adctd-released/</link>
@@ -17,7 +53,7 @@
     </item>
     
     <item>
-      <title>外部発表</title>
+      <title>外部発表(2018)</title>
       <link>https://www.activedefense.co.jp/news/research/</link>
       <pubDate>Wed, 30 May 2018 16:53:56 +0900</pubDate>
       
@@ -27,10 +63,10 @@
     
     <item>
       <title>お仕事情報(2018)</title>
-      <link>https://www.activedefense.co.jp/news/history/</link>
+      <link>https://www.activedefense.co.jp/news/history2018/</link>
       <pubDate>Wed, 09 May 2018 16:31:34 +0900</pubDate>
       
-      <guid>https://www.activedefense.co.jp/news/history/</guid>
+      <guid>https://www.activedefense.co.jp/news/history2018/</guid>
       <description>技術セミナー  2018/02,03,04 IoTセキュリティ応用ハンズオン実施 2018/05 一般従業員向け情報セキュリティセミナー実施  IoT脆弱性診断  2018/02-03 スマートロック脆弱性診断実施  フォレンジック  2018/02 マルウェアフォレンジック調査実施 2018/04 マルウェア調査実施  </description>
     </item>
     
@@ -71,6 +107,15 @@
     </item>
     
     <item>
+      <title>事業概要</title>
+      <link>https://www.activedefense.co.jp/consultingetc/</link>
+      <pubDate>Thu, 03 May 2018 22:20:05 +0900</pubDate>
+      
+      <guid>https://www.activedefense.co.jp/consultingetc/</guid>
+      <description>自社開発サービス  こちら  コンサルティング   セキュリティ対策製品開発コンサルティング</description>
+    </item>
+    
+    <item>
       <title>協力会社一覧</title>
       <link>https://www.activedefense.co.jp/partners/</link>
       <pubDate>Thu, 03 May 2018 22:20:05 +0900</pubDate>
@@ -80,39 +125,12 @@
     </item>
     
     <item>
-      <title>研究活動</title>
-      <link>https://www.activedefense.co.jp/research/</link>
-      <pubDate>Thu, 03 May 2018 22:20:05 +0900</pubDate>
-      
-      <guid>https://www.activedefense.co.jp/research/</guid>
-      <description>This is research contents</description>
-    </item>
-    
-    <item>
       <title>自社サービス</title>
       <link>https://www.activedefense.co.jp/services/</link>
       <pubDate>Thu, 03 May 2018 22:20:05 +0900</pubDate>
       
       <guid>https://www.activedefense.co.jp/services/</guid>
-      <description>Trusted Wall（クラウド型DDoS攻撃対策サービス）   企業規模に比較してユーザーが多く、画像/動画などを多く含む行楽施設などのWebサイトを、弊社が提供するサービスで保護します。</description>
-    </item>
-    
-    <item>
-      <title>診断・コンサルティング他</title>
-      <link>https://www.activedefense.co.jp/consultingetc/</link>
-      <pubDate>Thu, 03 May 2018 22:20:05 +0900</pubDate>
-      
-      <guid>https://www.activedefense.co.jp/consultingetc/</guid>
-      <description>コンサルティング   セキュリティ対策製品開発コンサルティング</description>
-    </item>
-    
-    <item>
-      <title>会社情報</title>
-      <link>https://www.activedefense.co.jp/company/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0900</pubDate>
-      
-      <guid>https://www.activedefense.co.jp/company/</guid>
-      <description>会社概要 株式会社アクティブディフェンス研究所（Active Defense Institute, Ltd.</description>
+      <description>Cyber Tactical Database(脅威情報サービス) 概要 日本への脅威にフォーカスした脅威情報の配信サービスの提供を開始します。 弊社独自のマルウェア配信プラットフォーム観測と自動解析を用い、マルウェアの配信元を継続的に監視しており、1時間おきに日本国内からの到達可能性やドメイン・IP情報を更新し配信しております。 JSON形式でのご提供になりますが、既にご要望頂いているTAXII/STIX2.</description>
     </item>
     
     <item>
