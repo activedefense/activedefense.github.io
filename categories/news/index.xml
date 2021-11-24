@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NEWS on 株式会社アクティブディフェンス研究所</title>
+    <link>https://www.activedefense.co.jp/categories/news/</link>
+    <description>Recent content in NEWS on 株式会社アクティブディフェンス研究所</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Active Defense Institute, Ltd. 2018</copyright>
+    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0900</lastBuildDate><atom:link href="https://www.activedefense.co.jp/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cyber Tactical Database v2 Released</title>
+      <link>https://www.activedefense.co.jp/news/adctd-released/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0900</pubDate>
+      
+      <guid>https://www.activedefense.co.jp/news/adctd-released/</guid>
+      <description>概要 日本への脅威にフォーカスした脅威情報の配信サービスのアップデートをお知らせします。 AD-CTD(Cyber Tactical Database）は弊社独自のサイバー攻撃観測と自動解析を用い、マルウェアの配信元を継続的に監視しており、1時間おきに日本国内からの到達可能性やドメイン・IP情報を更新し配信しております。 JSON形式でのご提供になりますが、既にご要望頂いているMISPフィード対応についても順次進めて参ります。</description>
+    </item>
+    
+    <item>
+      <title>日本国内向けにVMRay製品の取扱いを始めました。</title>
+      <link>https://www.activedefense.co.jp/news/resale_vmray/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0900</pubDate>
+      
+      <guid>https://www.activedefense.co.jp/news/resale_vmray/</guid>
+      <description>概要 弊社は2018年4月26日に米国に本社、ドイツに研究開発拠点を設けるVMRay Inc.</description>
+    </item>
+    
+  </channel>
+</rss>
