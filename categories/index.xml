@@ -2,37 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 株式会社アクティブディフェンス研究所</title>
-    <link>https://www.activedefense.co.jp/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on 株式会社アクティブディフェンス研究所</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Active Defense Institute, Ltd. 2018</copyright>
-    <lastBuildDate>Tue, 08 Mar 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://www.activedefense.co.jp/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>jp</language>
+    <copyright>Active Defense Institute, Ltd. 2024</copyright>
+    <lastBuildDate>Tue, 08 Mar 2022 00:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NEWS</title>
-      <link>https://www.activedefense.co.jp/categories/news/</link>
+      <link>http://localhost:1313/categories/news/</link>
       <pubDate>Tue, 08 Mar 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://www.activedefense.co.jp/categories/news/</guid>
+      <guid>http://localhost:1313/categories/news/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Solution</title>
-      <link>https://www.activedefense.co.jp/categories/solution/</link>
+      <link>http://localhost:1313/categories/solution/</link>
       <pubDate>Tue, 08 Mar 2022 00:00:00 +0900</pubDate>
-      
-      <guid>https://www.activedefense.co.jp/categories/solution/</guid>
+      <guid>http://localhost:1313/categories/solution/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>services</title>
-      <link>https://www.activedefense.co.jp/categories/services/</link>
+      <title>Services</title>
+      <link>http://localhost:1313/categories/services/</link>
       <pubDate>Thu, 03 May 2018 22:20:05 +0900</pubDate>
-      
-      <guid>https://www.activedefense.co.jp/categories/services/</guid>
+      <guid>http://localhost:1313/categories/services/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

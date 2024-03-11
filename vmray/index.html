@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html class="no-js" lang="jp">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>VMRayについて - 株式会社アクティブディフェンス研究所</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
@@ -16,18 +15,6 @@
 	<link rel="stylesheet" href="/css/custom.css">
 
 	<link rel="shortcut icon" href="/favicon.ico">
-		
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-87477072-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -130,7 +117,7 @@ if (!doNotTrack) {
 			<h1 class="post__title">VMRayについて</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-03-08T00:00:00&#43;09:00">2022-03-08</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/news/" rel="category">NEWS</a>, <a class="meta__link" href="/categories/solution/" rel="category">Solution</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2024-03-11T00:00:00&#43;09:00">2024-03-11</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/news/" rel="category">NEWS</a>, <a class="meta__link" href="/categories/solution/" rel="category">Solution</a>
 	</span>
 </div></div>
 		</header>
@@ -140,28 +127,33 @@ if (!doNotTrack) {
 	<div class="toc__menu">
 		<nav id="TableOfContents">
   <ul>
-    <li><a href="#価格表-クラウド版">価格表 クラウド版</a></li>
-    <li><a href="#オンプレミス版">オンプレミス版</a></li>
+    <li><a href="#vmrayの特徴">VMRayの特徴</a></li>
+    <li><a href="#価格体系に関する注意点">価格体系に関する注意点</a></li>
+    <li><a href="#vmray社のご紹介">VMRay社のご紹介</a></li>
   </ul>
 </nav>
 	</div>
 </div><div class="content post__content clearfix">
 			<h1 id="概要">概要</h1>
-<p>弊社は現在、<a href="https://www.vmray.com/">VMRay GmbH.</a>製品の日本国内における独占的な販売、サポート業務を提供しております。</p>
-<h1 id="価格体系に関する注意点">価格体系に関する注意点</h1>
+<p>弊社は現在、<a href="https://www.vmray.com/">VMRay GmbH.</a>製品の日本国内における独占的な販売、サポート業務を提供しております。
+VMRayは独自の仮想化による動的解析と脅威情報により、より複雑なマルウェアの検出を可能とします。
+Webコンソールからユーザーが解析を行うモードと、ICAPあるいはRESTful APIにて他ソリューションと連携するモードがあり、SCIRTなどでのマルウェア解析の他、SOARと組み合わせて脅威の自動判定及び対応にお役立てすることも可能です。</p>
+<p>また、クラウド版の他、オンプレミスでの運用の用意もございますので、お気軽にお問い合わせください。</p>
+<h2 id="vmrayの特徴">VMRayの特徴</h2>
+<ul>
+<li>2024年3月時点で、600MBを越えるファイルの解析が可能です。（案外他サンドボックスでは大きいサイズに対応していません）</li>
+<li>バラ撒き攻撃については、ほぼほぼVMRayの脅威情報にて検知するため、高速に判定が可能です。</li>
+<li>Windowsのだいたいフォーマットに対応しています。また、独自のアプリケーションについても個別にカスタマイズして動作を見ることが可能です。例えば国産ワードプロセッサや特定のCADソフトウェアなどです。（オンプレのみ）</li>
+<li>Mac（Intelバイナリ）、ELFについても解析が可能です。</li>
+</ul>
+<h2 id="価格体系に関する注意点">価格体系に関する注意点</h2>
 <ul>
 <li>Reports: 検体の動的解析を目的とした利用で消費されるクォータ。1VMでの動的解析とその結果の閲覧で消費されるため、1検体をWindows10、Windows7といった2つのVMで動的解析すると2消費される。</li>
 <li>Verdicts: 検体のマルウェア判定を目的とした利用で消費されるクォータ。レピュテーションと静的解析でのマルウェア判定がCLEANな場合のみ動的解析が実行される。</li>
 <li>また、各Entry以外のグレードでは、クォータを細かい単位で追加することも可能です。また、クォータを越える解析についてPPU（Pay-per Use）でのご利用も可能です。</li>
 <li><a href="https://www.vmray.com/">VMRay GmbH.</a>でDeal Registrationを行うと割引が適用されます。</li>
 </ul>
-<h2 id="価格表-クラウド版">価格表 クラウド版</h2>
-<ul>
-<li>調整中</li>
-</ul>
-<h2 id="オンプレミス版">オンプレミス版</h2>
-<p>-　調整中</p>
-<h1 id="vmray社のご紹介">VMRay社のご紹介</h1>
+<h2 id="vmray社のご紹介">VMRay社のご紹介</h2>
 <p>VMRay delivers advanced threat analysis and detection that combines a unique agentless hypervisor-based network sandbox with a real-time reputation engine. The combination provides both fast, high volume file classification and deep malware analysis. The VMRay Analyzer is platform independent and highly scalable, the result of a decade of R&amp;D by some of the world’s leading experts on dynamic malware analysis. By monitoring at the hypervisor level, it is undetectable by malware running in the target operating system. VMRay serves leading enterprises around the world.
 <a href="https://www.vmray.com/"><figure class="center"><img src="/images/logos/vmray.png" width="200" height="200"/>
 </figure>
@@ -197,19 +189,12 @@ if (!doNotTrack) {
 
 
 			</div>
-			<aside class="sidebar"><div class="widget-search widget">
-	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-		<label>
-			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q" aria-label="SEARCH...">
-		</label>
-		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="https://www.activedefense.co.jp/" />
-	</form>
-</div>
+			<aside class="sidebar">
 <div class="widget-recent widget">
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/news/history2023/">お仕事情報(2022-2023)</a></li>
 			<li class="widget__item"><a class="widget__link" href="/news/history2021/">お仕事情報(2021)</a></li>
 			<li class="widget__item"><a class="widget__link" href="/news/adctd-released/">Cyber Tactical Database v2 Released</a></li>
 			<li class="widget__item"><a class="widget__link" href="/news/research/">外部発表(2018)</a></li>
@@ -225,7 +210,7 @@ if (!doNotTrack) {
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/news/">NEWS</a></li>
 			<li class="widget__item">
-				<a class="widget__link" href="/categories/services/">services</a></li>
+				<a class="widget__link" href="/categories/services/">Services</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/solution/">Solution</a></li>
 		</ul>
@@ -247,7 +232,7 @@ if (!doNotTrack) {
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2022 Active Defense Institute, Ltd. 2021.
+			&copy; 2024 Active Defense Institute, Ltd. 2024.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
