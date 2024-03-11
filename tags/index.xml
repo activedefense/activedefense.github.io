@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 株式会社アクティブディフェンス研究所</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://www.activedefense.co.jp/tags/</link>
     <description>Recent content in Tags on 株式会社アクティブディフェンス研究所</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
     <copyright>Active Defense Institute, Ltd. 2024</copyright>
-    <lastBuildDate>Tue, 08 Mar 2022 00:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0900</lastBuildDate>
+    <atom:link href="https://www.activedefense.co.jp/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Malware Analysis</title>
-      <link>http://localhost:1313/tags/malware-analysis/</link>
-      <pubDate>Tue, 08 Mar 2022 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/tags/malware-analysis/</guid>
+      <link>https://www.activedefense.co.jp/tags/malware-analysis/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0900</pubDate>
+      <guid>https://www.activedefense.co.jp/tags/malware-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Sandbox</title>
-      <link>http://localhost:1313/tags/sandbox/</link>
-      <pubDate>Tue, 08 Mar 2022 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/tags/sandbox/</guid>
+      <link>https://www.activedefense.co.jp/tags/sandbox/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0900</pubDate>
+      <guid>https://www.activedefense.co.jp/tags/sandbox/</guid>
       <description></description>
     </item>
     <item>
       <title>Threat Intelligence</title>
-      <link>http://localhost:1313/tags/threat-intelligence/</link>
+      <link>https://www.activedefense.co.jp/tags/threat-intelligence/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/tags/threat-intelligence/</guid>
+      <guid>https://www.activedefense.co.jp/tags/threat-intelligence/</guid>
       <description></description>
     </item>
     <item>
       <title>クラウド型DDoS攻撃対策サービス</title>
-      <link>http://localhost:1313/tags/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E5%9E%8Bddos%E6%94%BB%E6%92%83%E5%AF%BE%E7%AD%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</link>
+      <link>https://www.activedefense.co.jp/tags/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E5%9E%8Bddos%E6%94%BB%E6%92%83%E5%AF%BE%E7%AD%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</link>
       <pubDate>Thu, 03 May 2018 22:20:05 +0900</pubDate>
-      <guid>http://localhost:1313/tags/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E5%9E%8Bddos%E6%94%BB%E6%92%83%E5%AF%BE%E7%AD%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</guid>
+      <guid>https://www.activedefense.co.jp/tags/%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E5%9E%8Bddos%E6%94%BB%E6%92%83%E5%AF%BE%E7%AD%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</guid>
       <description></description>
     </item>
     <item>
       <title>日本国内サイバー攻撃脅威情報提供サービス</title>
-      <link>http://localhost:1313/tags/%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%86%85%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E8%84%85%E5%A8%81%E6%83%85%E5%A0%B1%E6%8F%90%E4%BE%9B%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</link>
+      <link>https://www.activedefense.co.jp/tags/%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%86%85%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E8%84%85%E5%A8%81%E6%83%85%E5%A0%B1%E6%8F%90%E4%BE%9B%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</link>
       <pubDate>Thu, 03 May 2018 22:20:05 +0900</pubDate>
-      <guid>http://localhost:1313/tags/%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%86%85%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E8%84%85%E5%A8%81%E6%83%85%E5%A0%B1%E6%8F%90%E4%BE%9B%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</guid>
+      <guid>https://www.activedefense.co.jp/tags/%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%86%85%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E8%84%85%E5%A8%81%E6%83%85%E5%A0%B1%E6%8F%90%E4%BE%9B%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</guid>
       <description></description>
     </item>
   </channel>

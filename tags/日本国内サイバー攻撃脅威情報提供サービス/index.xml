@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>日本国内サイバー攻撃脅威情報提供サービス on 株式会社アクティブディフェンス研究所</title>
-    <link>http://localhost:1313/tags/%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%86%85%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E8%84%85%E5%A8%81%E6%83%85%E5%A0%B1%E6%8F%90%E4%BE%9B%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</link>
+    <link>https://www.activedefense.co.jp/tags/%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%86%85%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E8%84%85%E5%A8%81%E6%83%85%E5%A0%B1%E6%8F%90%E4%BE%9B%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</link>
     <description>Recent content in 日本国内サイバー攻撃脅威情報提供サービス on 株式会社アクティブディフェンス研究所</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
     <copyright>Active Defense Institute, Ltd. 2024</copyright>
     <lastBuildDate>Thu, 03 May 2018 22:20:05 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%86%85%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E8%84%85%E5%A8%81%E6%83%85%E5%A0%B1%E6%8F%90%E4%BE%9B%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.activedefense.co.jp/tags/%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%86%85%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E6%94%BB%E6%92%83%E8%84%85%E5%A8%81%E6%83%85%E5%A0%B1%E6%8F%90%E4%BE%9B%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自社サービス</title>
-      <link>http://localhost:1313/services/</link>
+      <link>https://www.activedefense.co.jp/services/</link>
       <pubDate>Thu, 03 May 2018 22:20:05 +0900</pubDate>
-      <guid>http://localhost:1313/services/</guid>
+      <guid>https://www.activedefense.co.jp/services/</guid>
       <description>Cyber Tactical Database(脅威情報サービス) 概要 日本への脅威にフォーカスした脅威情報の配信サービスの提供を開始します。 弊社独自のマルウェア配信プラットフォーム観測と自動解析を用い、マルウェアの配信元を継続的に監視しており、1時間おきに日本国内からの到達可能性やドメイン・IP情報を更新し配信しております。 JSON形式でのご提供になりますが、既にご要望頂いているTAXII/STIX2.</description>
     </item>
   </channel>

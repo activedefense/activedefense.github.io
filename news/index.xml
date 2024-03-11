@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>株式会社アクティブディフェンス研究所</title>
-    <link>http://localhost:1313/news/</link>
+    <link>https://www.activedefense.co.jp/news/</link>
     <description>Recent content on 株式会社アクティブディフェンス研究所</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
     <copyright>Active Defense Institute, Ltd. 2024</copyright>
     <lastBuildDate>Mon, 11 Mar 2024 03:17:50 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.activedefense.co.jp/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>お仕事情報(2022-2023)</title>
-      <link>http://localhost:1313/news/history2023/</link>
+      <link>https://www.activedefense.co.jp/news/history2023/</link>
       <pubDate>Mon, 11 Mar 2024 03:17:50 +0900</pubDate>
-      <guid>http://localhost:1313/news/history2023/</guid>
+      <guid>https://www.activedefense.co.jp/news/history2023/</guid>
       <description>技術セミナー 非公開（通年）マルウェア解析・レッドチーム向けペネトレーションテスト等 IoT脆弱性診断 2022/10 IoT機器脆弱性診断実施 2023/03 IoT機器脆弱性診断実施 2023/09 IoT機器脆弱性診断実施 Winアプリケーション診断 2022/06 Windowsネイティブ（C#）アプリケーション診断 2023/06 Windowsネイティブ（C#）アプリケーション診断 セキュリティ対策コンサルティング 2023/12 システム更新におけるマルウェア対策レビュー インシデントレスポンス支援 2022/06 Linuxサーバフォレンジック 2022/09 Webサーバ侵害対応 2023/05 Webサーバ侵害対応 2023/10 Linuxサーバフォレンジック R&amp;amp;D 2022 非公開 2023 非公開 </description>
     </item>
     <item>
       <title>お仕事情報(2021)</title>
-      <link>http://localhost:1313/news/history2021/</link>
+      <link>https://www.activedefense.co.jp/news/history2021/</link>
       <pubDate>Wed, 24 Nov 2021 03:17:50 +0900</pubDate>
-      <guid>http://localhost:1313/news/history2021/</guid>
+      <guid>https://www.activedefense.co.jp/news/history2021/</guid>
       <description>技術セミナー 非公開（通年）マルウェア解析・レッドチーム向けペネトレーションテスト等 IoT脆弱性診断 2021/10 IoT機器(2)脆弱性診断実施 2021/03 IoT機器(1)脆弱性診断実施 R&amp;amp;D 非公開x3 思い出せるのをざっと書いただけ</description>
     </item>
     <item>
       <title>Cyber Tactical Database v2 Released</title>
-      <link>http://localhost:1313/news/adctd-released/</link>
+      <link>https://www.activedefense.co.jp/news/adctd-released/</link>
       <pubDate>Wed, 31 Oct 2018 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/news/adctd-released/</guid>
+      <guid>https://www.activedefense.co.jp/news/adctd-released/</guid>
       <description>概要 日本への脅威にフォーカスした脅威情報の配信サービスのアップデートをお知らせします。 AD-CTD(Cyber Tactical Database）は弊社独自のサイバー攻撃観測と自動解析を用い、マルウェアの配信元を継続的に監視しており、1時間おきに日本国内からの到達可能性やドメイン・IP情報を更新し配信しております。 JSON形式でのご提供になりますが、既にご要望頂いているMISPフィード対応についても順次進めて参ります。</description>
     </item>
     <item>
       <title>外部発表(2018)</title>
-      <link>http://localhost:1313/news/research/</link>
+      <link>https://www.activedefense.co.jp/news/research/</link>
       <pubDate>Wed, 30 May 2018 16:53:56 +0900</pubDate>
-      <guid>http://localhost:1313/news/research/</guid>
+      <guid>https://www.activedefense.co.jp/news/research/</guid>
       <description>Black Hat 2018 Arsernalで弊社エンジニアがツールを展示します 弊社佐倉綾音推しの特任研究員(学生アルバイト)の小池氏が中心メンバーであるnao_secコミュニティで開発されたEKTotalが、世界でも最大規模のハッカーカンファレンスであるBlackHatでのツール展示の機会であるArsenalに採択されました。弊社街の国際バリスタエンジニア(学生アルバイト)の野村氏も開発に協力しています。</description>
     </item>
     <item>
       <title>お仕事情報(2018)</title>
-      <link>http://localhost:1313/news/history2018/</link>
+      <link>https://www.activedefense.co.jp/news/history2018/</link>
       <pubDate>Wed, 09 May 2018 16:31:34 +0900</pubDate>
-      <guid>http://localhost:1313/news/history2018/</guid>
+      <guid>https://www.activedefense.co.jp/news/history2018/</guid>
       <description>技術セミナー 2018/02,03,04 IoTセキュリティ応用ハンズオン実施 2018/05 一般従業員向け情報セキュリティセミナー実施 IoT脆弱性診断 2018/02-03 スマートロック脆弱性診断実施 フォレンジック 2018/02 マルウェアフォレンジック調査実施 2018/04 マルウェア調査実施 </description>
     </item>
     <item>
       <title>日本国内向けにVMRay製品の取扱いを始めました。</title>
-      <link>http://localhost:1313/news/resale_vmray/</link>
+      <link>https://www.activedefense.co.jp/news/resale_vmray/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/news/resale_vmray/</guid>
+      <guid>https://www.activedefense.co.jp/news/resale_vmray/</guid>
       <description>概要 弊社は2018年4月26日に米国に本社、ドイツに研究開発拠点を設けるVMRay Inc.</description>
     </item>
   </channel>
