@@ -1,0 +1,125 @@
+.corporate-hero {
+	padding: 44px 40px;
+	margin-bottom: 54px;
+	color: #fff;
+	background: linear-gradient(125deg, #071727, #0b4e6b);
+}
+
+.corporate-hero__eyebrow {
+	margin-bottom: 12px;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: .16em;
+	color: #79d8f4;
+}
+
+.corporate-hero h1 {
+	margin-bottom: 22px;
+	font-size: clamp(32px, 4.6vw, 52px);
+	line-height: 1.25;
+	color: #fff;
+}
+
+.corporate-hero > p:not(.corporate-hero__eyebrow) {
+	max-width: 780px;
+	font-size: 14px;
+	line-height: 1.9;
+	color: #d2e2e9;
+}
+
+.corporate-hero__actions {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.corporate-hero__actions a {
+	display: inline-block;
+	padding: 12px 18px;
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	background: #0798d1;
+}
+
+.corporate-hero__actions a:last-child {
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, .35);
+}
+
+.corporate-section {
+	margin-bottom: 54px;
+}
+
+.corporate-section > h2 {
+	padding-bottom: 12px;
+	margin-bottom: 24px;
+	border-bottom: 2px solid #0798d1;
+}
+
+.corporate-cards {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 14px;
+}
+
+.corporate-cards article {
+	padding: 24px;
+	background: #f2f7f9;
+	border-top: 3px solid #0798d1;
+}
+
+.corporate-cards article > p:first-child {
+	margin-bottom: 6px;
+	font-size: 9px;
+	font-weight: 700;
+	letter-spacing: .13em;
+	color: #67808c;
+}
+
+.corporate-cards h3 {
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.corporate-cards h3 a {
+	color: #087ca8;
+}
+
+.corporate-cards article > p:last-child {
+	margin-bottom: 0;
+	font-size: 12px;
+	line-height: 1.75;
+	color: #4f6570;
+}
+
+.corporate-partners > p:last-child {
+	margin-top: 18px;
+}
+
+.corporate-partners > p:last-child a {
+	font-weight: 700;
+	color: #087ca8;
+}
+
+@media (max-width: 620px) {
+	.corporate-hero {
+		padding: 32px 24px;
+	}
+
+	.corporate-hero h1 {
+		font-size: 32px;
+	}
+
+	.corporate-hero__actions {
+		flex-direction: column;
+	}
+
+	.corporate-hero__actions a {
+		text-align: center;
+	}
+
+	.corporate-cards {
+		grid-template-columns: 1fr;
+	}
+}

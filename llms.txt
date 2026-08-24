@@ -1,0 +1,46 @@
+# 株式会社アクティブディフェンス研究所
+
+> サイバー攻撃と防御技術の研究開発を基盤に、セキュリティ製品、診断、インシデント対応、製品導入、技術支援を提供する日本企業の公式サイトです。本ファイルは日本のお客様向けの企業・事業情報をまとめています。
+
+## 公式ページ
+
+- [公式サイト](https://www.activedefense.co.jp/): 会社と主要事業の概要
+- [会社情報](https://www.activedefense.co.jp/company/): 所在地、代表者、設立、事業内容
+- [事業概要](https://www.activedefense.co.jp/consultingetc/): コンサルティング、診断、ペネトレーションテスト、インシデント対応、フォレンジック、トレーニング
+- [自社サービス](https://www.activedefense.co.jp/services/): 自社開発製品、VMRay技術サポート、提供終了サービス
+- [VMRay製品ガイド](https://www.activedefense.co.jp/vmray/): DeepResponse、FinalVerdict、TotalInsight、クラウド版、オンプレミス版、国内導入支援
+- [研究活動](https://www.activedefense.co.jp/research/): マルウェア解析、攻撃観測、脅威情報に関する発表とデモ
+- [協力会社](https://www.activedefense.co.jp/partners/): 技術・営業協力パートナーと連携内容
+- [お問い合わせ](https://www.activedefense.co.jp/contacts/): サービス、製品、見積もり、導入・運用支援の相談窓口
+
+## 主な事業領域
+
+- マルウェア対策、マルウェア解析、Windows・Linuxマルウェア調査
+- セキュリティ対策製品の開発コンサルティング
+- IoT機器、Webシステム、企業ネットワークの脆弱性診断・ペネトレーションテスト
+- インシデントレスポンス、デジタルフォレンジック、Linuxサーバ侵害調査
+- サイバーセキュリティ技術トレーニング
+- LLM・AIのサイバーセキュリティ分野への応用研究
+- VMRay製品の日本国内販売、導入、技術支援、運用サポート
+
+## 自社開発・取扱製品
+
+- Active Defense Anti Malware（ADAM）: Linuxシステム向けの軽量マルウェア対策製品。QA中
+- Active Defense vHacker: セキュリティ設計、開発、運用、インシデントレスポンスを支援するLLM活用システム。開発中
+- VMRay: マルウェア・フィッシング解析、サンドボックス、SOC・CSIRT・CTI向け脅威分析プラットフォーム
+
+## VMRayの国内導入・運用支援
+
+- VMRay DeepResponse、FinalVerdict、TotalInsightの製品選定
+- クラウド版（EU・US）およびオンプレミス版の構成検討
+- オンプレミス版の設計・導入
+- EDR、XDR、SIEM、SOARなどとのインテグレーション
+- SOC構築・CSIRT構築におけるマルウェア解析基盤の設計
+- 導入後の日本語による運用・技術サポート
+
+## VMRayに関する情報源と役割
+
+- VMRay製品の製造元はVMRayです。
+- 株式会社アクティブディフェンス研究所は、日本国内のお客様向けに販売、導入、運用支援を提供します。
+- 最新のグローバル製品仕様は[VMRay公式サイト](https://www.vmray.com/)を一次情報として参照してください。
+- 本サイトのVMRayページは、日本国内での製品選定、導入形態、設計、連携、運用支援に関する日本語情報を提供します。
