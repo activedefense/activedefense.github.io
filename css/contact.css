@@ -1,0 +1,150 @@
+#contact {
+	padding: 48px 0 64px;
+}
+
+#contact .container {
+	width: min(100%, 760px);
+	margin: 0 auto;
+}
+
+.contact-heading {
+	margin-bottom: 34px;
+}
+
+#contact .section-heading {
+	margin-bottom: 8px;
+	font-size: clamp(30px, 4vw, 42px);
+	line-height: 1.25;
+}
+
+#contact .section-subheading {
+	margin-bottom: 0;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #4e6172;
+}
+
+.contact-form {
+	display: grid;
+	gap: 22px;
+}
+
+.contact-field label {
+	display: block;
+	margin-bottom: 8px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #1d2d3b;
+}
+
+#contact input,
+#contact select,
+#contact textarea {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 12px 14px;
+	font: inherit;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #1d2d3b;
+	background: #fff;
+	border: 1px solid #8b9ba5;
+	border-radius: 3px;
+}
+
+#contact textarea {
+	min-height: 180px;
+	resize: vertical;
+}
+
+#contact input:hover,
+#contact select:hover,
+#contact textarea:hover {
+	border-color: #4e6172;
+}
+
+#contact input:focus-visible,
+#contact select:focus-visible,
+#contact textarea:focus-visible,
+#contact button:focus-visible {
+	outline: 3px solid #06759f;
+	outline-offset: 3px;
+}
+
+.contact-note {
+	padding: 16px 18px;
+	margin: 0;
+	font-size: 13px;
+	line-height: 1.75;
+	color: #3e5665;
+	background: #edf6fa;
+	border-left: 4px solid #06759f;
+}
+
+.contact-note strong {
+	color: #1d2d3b;
+}
+
+.contact-status:empty {
+	display: none;
+}
+
+.contact-actions {
+	text-align: left;
+}
+
+#contact .btn {
+	min-width: 180px;
+	padding: 12px 24px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #fff;
+	cursor: pointer;
+	background: #06759f;
+	border: 0;
+	border-radius: 3px;
+}
+
+#contact .btn:hover {
+	background: #075b88;
+}
+
+@media (min-width: 767px) and (max-width: 1000px) {
+	.contact-page .menu__btn {
+		display: block;
+	}
+
+	.contact-page .menu__list,
+	.js .contact-page .menu__list {
+		position: absolute;
+		z-index: 3;
+		display: block;
+		width: 100%;
+		visibility: hidden;
+		transform: scaleY(0);
+		transform-origin: top left;
+	}
+
+	.contact-page .menu__list--active,
+	.js .contact-page .menu__list--active {
+		visibility: visible;
+		border-top: 1px solid rgba(255, 255, 255, .1);
+		border-bottom: 1px solid rgba(255, 255, 255, .1);
+		transform: scaleY(1);
+	}
+
+	.contact-page .menu__item {
+		border-left: 0;
+	}
+}
+
+@media (max-width: 620px) {
+	#contact {
+		padding: 32px 0 48px;
+	}
+
+	#contact .btn {
+		width: 100%;
+	}
+}
